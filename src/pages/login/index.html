@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页尾 -->
+  <%= require("html-loader!../common/header/index.html") %>
+  <h1 class="logo">
+    <img src="/public/imgs/user.png" alt="">
+  </h1>
+    <form action="" class="form-container">
+      <input type="text" placeholder="请输入手机号码">
+      <input type="text" placeholder="请输入密码">
+      <a href="" class="register">注册/忘记密码</a>
+      <button type="submit" class="submit">登录</button>
+    </form>
+</body>
+
+</html>

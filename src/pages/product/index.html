@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页尾 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container">
+      <div class="product-img">
+        <img src="/public/imgs/product.jpg" alt="">
+      </div>
+      <div class="bg-img">
+        <img src="/public/imgs/product-bg.png" alt="">
+      </div>
+    </section>
+    <section class="ps">---------------------购买解锁内容--------------------</section>
+    <main class="main-container">
+      <div class="title-module">
+        <h1 class="title">金蝉</h1>
+        <div class="num">限量：999份</div>
+      </div>
+      <ul class="info-list">
+        <li class="info-item">
+          <div class="title">证据编号</div>
+          <div class="content">0003f7935fd786633a7063fec33e4bd7da31519f6737dee4cbc8c595f00ccebb0be1</div>
+        </li>
+        <li class="info-item">
+          <div class="title">文件hash</div>
+          <div class="content">ad3cd560aeab9d9b36c4dfd13b459862cac859ae8a6f15fe22729219af86f4e2</div>
+        </li>
+        <li class="info-item">
+          <div class="title">藏品介绍</div>
+          <div class="content">
+            <img src="/public/imgs/product-content.jpg" alt="">
+          </div>
+        </li>
+        <li class="info-item">
+          <div class="title">购买须知</div>
+          <div class="content">
+            源艺平台发售将采用 抽签制/直接购买 制度，抽签方式为发售之前30分钟开始抽签，抽签截止时间至发售，抽签结果不按先后顺序完全随机，藏品开售后公布中签结果以及签号，中签后请在个人中心待支付选项里面支付订单，请勿积压过多未支付订单，卡订单不支付的用户酌情进行封号处理，不进行购买的用户请勿参与抽签浪费其余藏友宝贵的机会。数字藏品为虚拟数字商品，具有特殊性，一经售出，不支持退换，数字藏品的版权由发行方或原创作者拥有，除另行取得版权拥有书面同意外，用户不得将数字藏品用于任何商业用途。请勿对数字藏品进行炒作、场外交易、欺诈、或以任何其他非法方式进行使用。
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="tag">已售完</div>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>
